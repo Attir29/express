@@ -1,4 +1,4 @@
-import { books } from "./data.js";
+import { books } from "../data/books.js";
 
 export const getAllBooksHandler = (req, res) => {
   res.json({
